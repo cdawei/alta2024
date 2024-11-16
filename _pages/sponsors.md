@@ -58,6 +58,8 @@ bronze:
 .sponsors-list > a > img { margin: 0; max-height: 5rem;}
 .sponsors-list.html > a:hover { box-shadow: 0 0 10px #00000044; }
 .sponsors-list.html > a:hover > img { box-shadow: none !important; }
+/* fix iphone 16 pro rendering issue */
+.sponsors-list > a > img {height:intrinsic;}
 </style>
 
 For a copy of our sponsorship prospectus, please reach out to our Sponsorship Chair, [Mr Charbel El-Khaissi](mailto:charbel.el-khaissi@anu.edu.au?Subject=Sponsorship inquiry from ALTA 2024 website). 
