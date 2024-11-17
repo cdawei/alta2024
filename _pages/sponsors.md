@@ -40,8 +40,10 @@ bronze:
 ---
 
 <style>
-.sponsors-list.html { justify-content: flex-start; }
-.sponsors-list.html > a {
+/* the class .sponsors-list is applied to all of the <figure> elements used to lay out the Sponsors */
+
+.sponsors-list { justify-content: flex-start; }
+.sponsors-list > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,11 +55,11 @@ bronze:
   padding: 0.5em;
   text-align: center;
 }
-.sponsors-list.html a { text-decoration: none; }
-.sponsors-list.html > a > .dummy-padding { margin-top: 100%; }
-.sponsors-list.html > a > img { margin: 0; height: 5rem;} /* explicitly specify height to resolve iPhone 16 Pro issue with rendering */
-.sponsors-list.html > a:hover { box-shadow: 0 0 10px #00000044; }
-.sponsors-list.html > a:hover > img { box-shadow: none !important; }
+.sponsors-list a { text-decoration: none; }
+.sponsors-list > a > .dummy-padding { margin-top: 100%; }
+.sponsors-list > a > img { margin: 0; max-height: 4rem;} /* explicitly specify height to resolve iPhone 16 Pro issue with rendering */
+.sponsors-list > a:hover { box-shadow: 0 0 10px #00000044; }
+.sponsors-list > a:hover > img { box-shadow: none !important; }
 </style>
 
 For a copy of our sponsorship prospectus, please reach out to our Sponsorship Chair, [Mr Charbel El-Khaissi](mailto:charbel.el-khaissi@anu.edu.au?Subject=Sponsorship inquiry from ALTA 2024 website). 
