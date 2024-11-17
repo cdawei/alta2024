@@ -55,7 +55,7 @@ bronze:
 }
 .sponsors-list.html a { text-decoration: none; }
 .sponsors-list.html > a > .dummy-padding { margin-top: 100%; }
-.sponsors-list.html > a > img { margin: 0; max-height: 5rem;}
+.sponsors-list.html > a > img { margin: 0; height: 5rem;} /* explicitly specify height to resolve iPhone 16 Pro issue with rendering */
 .sponsors-list.html > a:hover { box-shadow: 0 0 10px #00000044; }
 .sponsors-list.html > a:hover > img { box-shadow: none !important; }
 </style>
